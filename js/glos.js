@@ -50,7 +50,7 @@ const glosor = {
         "sv": "Hur mycket är klockan?",
         "fr": "Quelle heure est-il?"
     }, {
-        "sv": "Hon är tolv(på dagen)",
+        "sv": "Hon är tolv (på dagen)",
         "fr": "Il est midi"
     }, {
         "sv": "Hon är tolv (på natten)",
@@ -104,9 +104,6 @@ const glosor = {
         "sv": "Sverige",
         "fr": "Suède"
     }, {
-        "sv": "aaa",
-        "fr": "bbb"
-    }, {
         "sv": "Svenska",
         "fr": "Suèdois"
     }, {
@@ -153,13 +150,13 @@ const glosor = {
         "fr": "Vert"
     }, {
         "sv": "Blå",
-        "fr": "bleu"
+        "fr": "Bleu"
     }, {
         "sv": "Röd",
-        "fr": "rouge"
+        "fr": "Rouge"
     }, {
         "sv": "Vit",
-        "fr": "blanc"
+        "fr": "Blanc"
     }, {
         "sv": "Svart",
         "fr": "Noir"
