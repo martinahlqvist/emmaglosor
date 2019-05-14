@@ -15,3 +15,8 @@ p#introText {
 p#glosa {
     font-size: 18px;
 }
+
+p#score {
+    float: right;
+    font-size: 25px;
+}

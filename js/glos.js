@@ -15,16 +15,16 @@ const glosor = {
         "fr": "J'ai douze ans"
     }, {
         "sv": "Var bor du?",
-        "fr": "Yu habites où?"
+        "fr": "Tu habites où?"
     }, {
         "sv": "Jag bor i Nice",
         "fr": "J'habite à Nice"
     }, {
         "sv": "Har du syskon?",
-        "fr": "TU as des frèes et soeurs?"
+        "fr": "Tu as des frèrs et soeurs?"
     }, {
         "sv": "Jag har en bror och en syster",
-        "fr": "J'ai un frères et une soeurs"
+        "fr": "J'ai un frère et une soeur"
     }, {
         "sv": "Har du djur?",
         "fr": "Tu as un animal?"
@@ -303,6 +303,7 @@ function kontrolleraSvar(svar, facit) {
     if (svar === facit) {
         console.log("Rätt! 😄");
         score++
+        $("#score").text(nuvarandeGlosa+"/"+totaltAntalGlosor + "( "+score+" antal rätt)");
         nuvarandeGlosa++;
 
         console.log("Nu har jag " + score + " rätt av " + totaltAntalGlosor);
@@ -323,7 +324,7 @@ $(document).ready(function () {
     console.log("Nu är sidan laddad!! :(");
 
     laddaGlosa(nuvarandeGlosa);
-
+    $("#score").text(nuvarandeGlosa+"/"+totaltAntalGlosor + "( "+score+" antal rätt)");
 
     $('#svarInput').keypress(function(event){
        
