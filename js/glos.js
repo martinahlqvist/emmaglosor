@@ -45,7 +45,7 @@ const glosor = {
         "fr": "Oui, j'aime les chats"
     }, {
         "sv": "Jag tycker inte om sniglar",
-        "fr": "Je n'aime les chat"
+        "fr": "Je n'aime les escargots"
     }, {
         "sv": "Hur mycket är klockan?",
         "fr": "Quelle heure est-il?"
@@ -53,7 +53,7 @@ const glosor = {
         "sv": "Hon är tolv(på dagen)",
         "fr": "Il est midi"
     }, {
-        "sv": "Hon är tolv( på natten",
+        "sv": "Hon är tolv (på natten)",
         "fr": "Il est minuit"
     }, {
         "sv": "Hon är sex",
