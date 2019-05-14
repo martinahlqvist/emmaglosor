@@ -1,0 +1,17 @@
+h1 {
+    color: #ff9bd6;
+}
+
+body {
+    background: url(../img/paris.jpg);
+    background-size: cover;
+    font-family: monospace;
+}
+
+p#introText {
+    font-size: 24px;
+}
+
+p#glosa {
+    font-size: 18px;
+}
